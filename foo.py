@@ -6,7 +6,7 @@ class Test:
         self.id = id
         self.lol = lol
     def info():
-   		return {'color': self.color, 'type': self.type, 'id': self.id, 'lol': self.lol}
+   	    return {'color': self.color, 'type': self.type, 'id': self.id, 'lol': self.lol}
 	
 	def check():
 		if self.color == 'red' and self.lol == 'hehe' or self.lol == 'haha':
