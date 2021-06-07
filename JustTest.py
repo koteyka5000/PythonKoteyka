@@ -14,4 +14,4 @@ class Test:
 				l.append(g[gg]-1)
 		return l
 			
-#YDYD
+#YDY
