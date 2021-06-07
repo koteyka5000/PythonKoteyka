@@ -12,4 +12,3 @@ class Test:
 			return True
 		else:
 			return False
-#E
