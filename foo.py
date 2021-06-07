@@ -1,3 +1,4 @@
+print("LoL")
 class Test:
     def __init__(self, color, type, id, lol):
         self.color = color
