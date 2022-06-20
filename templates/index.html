@@ -1,0 +1,14 @@
+<html>
+    {% if data %}
+        {% for name in data %}
+            <h1>Name: {{ name[0] }}</h1>
+            <h1>Email: {{ name[1] }}</h1>
+        {% endfor %}
+    {% else %}
+        <h1>No users yet!</h1>
+    {% endif %}
+    <form action="" method="post">
+        <input type="text" name="name" placeholder="Enter ur name:">
+        <input type="submit" value="Submit">
+    </form>
+</htmp>
