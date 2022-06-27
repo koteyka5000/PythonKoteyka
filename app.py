@@ -9,28 +9,7 @@ def index():
         name = request.form['name']
         add_user(name)
 
-        _data = read_from_db()
-        return render_template('index.html', data=_data)
+    _data = read_from_db()
+    return render_template('index.html', data=_data)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-name = 'Noname'
-    if request.method == 'POST':
-        name = request.form['name']
-    return render_template('index.html', name=name)
         
